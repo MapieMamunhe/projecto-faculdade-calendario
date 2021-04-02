@@ -1,0 +1,3 @@
+-O background do website deve ir de acordo com a a imagem da estacao
+-As cores de fundo e das letras devem estar de acordo com a hora do dia
+-Ter em conta os efeitos de alguns botoes para adicionar interactividade
