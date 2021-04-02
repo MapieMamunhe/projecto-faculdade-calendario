@@ -4,21 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="./css/estilos.css">
     <link rel="stylesheet" href="./css/estilo-home.css">
-    
 </head>
 <body>
     <!--A parte a seguir contem o nome da pagina e links-->
-    <div class="cabecalho">
-        <section>
-            <p class="links">
-                <a href="">Home</a>&nbsp;<a href="">Sobre</a>&nbsp; <a href="">Curiosidades sobre datas</a>
-            </p>
-        </section>
-    </div>
+    <header class="cabecalho">
+        <a href="./index.html">Um pouco sobre Hoje</a>
+        <nav>
+            <ul class="links">
+                <li> <a href="./pages/curiosidades-datas.html">Curiosidades sobre datas</a></li>
+                <li><a href="./pages/sobre.html">Sobre</a></li>
+                <li><a href="./pages/contacto.html">Contacte-nos</a></li>
+            </ul>
+        </nav>
+    </header>
     <!--Fim do cabeçalho-->
     <!--A seguir tem o corpo da pagina-->
     <div class="corpo">
+        <div class="info">
+            <h2>Facto Interessante!</h2>
+            <p>É um dia lindo para viver!</p>
+        </div>
         <div class ="areaData">
             <p id="d1">
                 Data
@@ -31,11 +38,9 @@
             </p>
         </div>        
     </div>
-    <div class= "rodape">
-        <footer>
-            Produzido por Mapie Mamunhe, 2º ano Laboral
-        </footer>
-    </div>
+    <footer class= "rodape">
+        Produzido por Mapie Mamunhe, 2º ano Laboral
+    </footer>
     <script src="./js/calendario.js">
     
     </script>

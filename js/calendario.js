@@ -19,7 +19,7 @@ function tempoDia(){
         if((hora>=12) && (hora < 18)){
             tempo = "Tarde de ";
         }else{
-            if((hora>=18) && (hora < 23)){
+            if((hora>=18) && (hora <= 23)){
                 tempo = "Noite de ";
             }else{
                 tempo = "Madrugada de ";
