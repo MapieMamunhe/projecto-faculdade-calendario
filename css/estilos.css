@@ -10,7 +10,7 @@ body{
 .cabecalho{
     background-color:rgba(3, 63, 3, 0.973);
     padding: 10px;
-    margin: 0px;
+    margin: 0px 0px; 
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -19,9 +19,13 @@ body{
 .links{
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
 }
-.links li{
+.links > li{
     margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    
 }
 .links li a{
     display: block;

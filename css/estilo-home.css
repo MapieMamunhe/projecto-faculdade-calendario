@@ -9,11 +9,21 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
+
 .areaData{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-evenly;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 28pt;
-    width: 35%;
+    width: 60%;
     text-align: center;
     background-color:rgb(185, 110, 19);
     border: solid lightyellow 3px;
+}
+p{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
