@@ -9,7 +9,16 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     
 }
-
+@font-face {
+    font-family: relogio-digital;
+    src: url(./fontes/DS-DIGIT.TTF);
+}
+#exemplo{
+    font-style: normal;
+    font-family: relogio-digital;
+    font-size: 18pt;
+    margin: 0 10px;
+}
 .areaData{
     display: flex;
     flex-wrap: wrap;
