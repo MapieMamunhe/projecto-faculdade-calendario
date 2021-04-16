@@ -21,6 +21,14 @@ input{
     color: #98ad22;
     background-color: rgb(19, 17, 17);
 }
+select{
+    background-color: rgb(19, 17, 17);
+    border-radius: 5px;
+    color:#98ad22;
+    width: max-content;
+    height: max-content;
+    margin-bottom: 10px;
+}
 textarea{
     color: aliceblue;
     font-family: Arial, Helvetica, sans-serif;

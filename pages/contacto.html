@@ -34,17 +34,13 @@
                         <input type="text" name="txtPNome" id="txtNome" placeholder="Digite seu Primeiro nome">
                         <label for="txtUNome">Último Nome</label>
                         <input type="text" name="txtUNome" id="txtUNome" placeholder="Digite seu último nome"> <br>
-                        <fieldset>
-                            <legend>Sexo</legend>
-                            <div>
-                                <input type="checkbox" name="Masc" id="masc">
-                                <label for="masc">Masculino</label>
-                            </div>
-                            <div>
-                                <input type="checkbox" name="fem" id="fem">
-                                <label for="fem">Feminino</label>
-                            </div>
-                        </fieldset>
+                        <div>
+                            <label for="sexo">Sexo</label>
+                            <select name="sexo" id="sexo">
+                                <option value="m">Masculino</option>
+                                <option value="f">Feminino</option>
+                            </select>
+                        </div>
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Digite seu email">
                     </fieldset>
