@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacte-nos</title>
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="stylesheet" href="../css/estilo-contacto.css">
+</head>
+<body>
+      <!--A parte a seguir contem o nome da pagina e links-->
+      <header class="cabecalho">
+        <a href="../index.html">Um pouco sobre Hoje</a>
+        <nav>
+            <ul class="links">
+                <li> <a href="./curiosidades-datas.html">Curiosidades sobre datas</a></li>
+                <li><a href="./sobre.html">Sobre</a></li>
+                <li><a href="./contacto.html">Contacte-nos</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!--Fim do cabeçalho-->
+    <!--A seguir tem o corpo da pagina-->
+    <section>
+        <h2>Sobre seus dados</h2>
+        <p style="color:teal; font-weight: bolder; font-style: italic;">Nós apreciamos o seu feedback e garantimos que a informação a nós confiada será usada somente para fins de melhoria da qualidade desse website</p>
+        <div class="form">
+            <form action="">
+                <fieldset>
+                    <legend>Contacte-nos</legend>
+                    <fieldset>
+                        <legend>Identificação</legend>
+                        <label for="txtPNome">Primeiro Nome</label>
+                        <input type="text" name="txtPNome" id="txtNome" placeholder="Digite seu Primeiro nome">
+                        <label for="txtUNome">Último Nome</label>
+                        <input type="text" name="txtUNome" id="txtUNome" placeholder="Digite seu último nome"> <br>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <div>
+                                <input type="checkbox" name="Masc" id="masc">
+                                <label for="masc">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="fem" id="fem">
+                                <label for="fem">Feminino</label>
+                            </div>
+                        </fieldset>
+                        <label for="email">Email</label>
+                        <input type="email" name="email" id="email" placeholder="Digite seu email">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend>O que você achou do website?</legend>
+                        <div>
+                            <label for="non">Chato</label>
+                            <input type="checkbox" name="non" id="non"> 
+                        </div>
+                        <div>
+                            <label for="non">Não me chamou àtenção</label>
+                            <input type="checkbox" name="info" id="info">
+                        </div>
+                        <div>
+                            <label for="info">Informativo</label>
+                            <input type="checkbox" name="interessante" id="interessante">
+                        </div>
+                        <div>
+                            <label for="interessante">interessante</label>
+                            <input type="checkbox" name="inds" id="inds">
+                        </div>
+                        <div>
+                            <label for="descreva">Descreva-nos a sua opinião</label>
+                            <textarea name="descreva" id="descreva" cols="30" rows="10" maxlength="500">Opine</textarea>
+                        </div>
+                    </fieldset>
+                    <br>
+                    <input type="submit" value="ENVIAR">
+                    <input type="reset" value="RESET">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+    <!--Rodape-->
+    <footer >
+        <div class= "rodape">
+            Produzido por Mapie Mamunhe, 2º ano Laboral 
+        </div>
+    </footer>
+</body>
+</html>

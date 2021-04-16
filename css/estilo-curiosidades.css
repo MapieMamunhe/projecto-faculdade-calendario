@@ -1,0 +1,27 @@
+div a :hover{
+    text-decoration-style: none;
+    color:blue;
+    transition: color;
+}
+@font-face {
+    font-family: relogio-digital;
+    src: url(./fontes/DS-DIGIT.TTF);
+}
+dt a{
+    color:blue;
+}
+dt a:hover{
+    color:brown;
+    transition: color;
+}
+div ul a{
+    text-decoration: none;
+    color:black;
+}
+dl dd{
+    font-style: italic;
+}
+.exemplo{
+    font-style: normal;
+    font-family: relogio-digital;
+}
