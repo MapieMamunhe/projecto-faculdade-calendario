@@ -34,6 +34,17 @@
                         <input type="text" name="txtPNome" id="txtNome" placeholder="Digite seu Primeiro nome">
                         <label for="txtUNome">Último Nome</label>
                         <input type="text" name="txtUNome" id="txtUNome" placeholder="Digite seu último nome"> <br>
+                        <fieldset>
+                            <legend>Sexo</legend>
+                            <div>
+                                <input type="checkbox" name="Masc" id="masc">
+                                <label for="masc">Masculino</label>
+                            </div>
+                            <div>
+                                <input type="checkbox" name="fem" id="fem">
+                                <label for="fem">Feminino</label>
+                            </div>
+                        </fieldset>
                         <label for="email">Email</label>
                         <input type="email" name="email" id="email" placeholder="Digite seu email">
                     </fieldset>
@@ -57,13 +68,14 @@
                             <input type="checkbox" name="inds" id="inds">
                         </div>
                         <div>
-                            <label for="descreva">Me descreva...</label>
+                            <label for="descreva">Descreva-nos a sua opinião</label>
                             <textarea name="descreva" id="descreva cols="30" rows="10">
                             </textarea>
                         </div>
                     </fieldset>
                     <br>
                     <input type="submit" value="ENVIAR">
+                    <input type="reset" value="RESET">
                 </fieldset>
             </form>
         </div>
