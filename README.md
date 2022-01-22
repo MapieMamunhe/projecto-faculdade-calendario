@@ -1,6 +1,6 @@
 # projecto-faculdade-calendario
 
-#Descricao
+# Descricao
 - A ideia principal desse projecto é demostrar as capacidades que desenvolvi durante o semestre, 
 tendo feito para alcancar esse Objectivo um projecto que fala resumidamente sobre palindromos e datas palindromas.
 
